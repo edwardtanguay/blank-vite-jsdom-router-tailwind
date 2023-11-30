@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	nav .active {
+		@apply text-orange-800 font-semibold;
+	}
+}
